@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Log a customer enquiry for admin follow-up." />
+  <title>Fife Heat & Plumbing | Log Enquiry</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <div class="brand-mark" aria-hidden="true">FH</div>
+        <div>
+          <p class="brand-top">Fife Heat &amp; Plumbing</p>
+          <h1 class="brand-title">Admin Desk Portal</h1>
+          <p class="brand-sub">Log Enquiry (Data Capture)</p>
+        </div>
+      </div>
+
+      <nav class="nav" aria-label="Primary">
+        <a class="nav-link" href="index.html">Home</a>
+        <a class="nav-link" href="info.html">Core Info</a>
+        <a class="nav-link" href="profile.html">Weekly View</a>
+        <a class="nav-link active" href="contact.html">Log Enquiry</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="container">
+    <section class="card">
+      <h2 class="h2">Log a new enquiry</h2>
+      <p class="lead">
+        Use this to capture the key details during or after a call. The goal is that another admin can pick it up and know exactly what’s needed.
+      </p>
+      <p class="muted small">
+        Required fields: name, email, message, and a submit button.
+      </p>
+    </section>
+
+    <section class="grid-2">
+      <article class="card">
+        <h3 class="h3">Enquiry form</h3>
+        <form class="form" action="#" method="post">
+          <div class="form-row">
+            <label for="name">Name <span aria-hidden="true">*</span></label>
+            <input id="name" name="name" type="text" placeholder="Customer full name" required />
+          </div>
+
+          <div class="form-row">
+            <label for="email">Email <span aria-hidden="true">*</span></label>
+            <input id="email" name="email" type="email" placeholder="name@example.com" required />
+          </div>
+
+          <div class="form-row">
+            <label for="message">Message <span aria-hidden="true">*</span></label>
+            <textarea id="message" name="message" rows="7" placeholder="Include postcode, boiler brand, fault code, and availability." required></textarea>
+          </div>
+
+          <button class="btn" type="submit">Submit</button>
+        </form>
+
+        <p class="muted small">
+          Note: the form doesn’t need to process data for this assignment. :contentReference[oaicite:3]{index=3}
+        </p>
+      </article>
+
+      <aside class="card">
+        <h3 class="h3">What good logging looks like</h3>
+        <ul class="list">
+          <li>Postcode + full address</li>
+          <li>Best contact number</li>
+          <li>Boiler brand/model + fault code</li>
+          <li>What checks they’ve tried</li>
+          <li>Availability for access</li>
+        </ul>
+
+        <div class="callout">
+          <p class="callout-title">Example message</p>
+          <p class="callout-body">
+            “KY12… Worcester boiler showing EA code, pressure 0.6, no hot water. Customer available Tue/Thu after 3pm.”
+          </p>
+        </div>
+      </aside>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>GA12008 Assessment 1 — Ewan Mclean - Static BIS Interface</p>
+      <p class="muted">Log Enquiry</p>
+    </div>
+  </footer>
+</body>
+</html>
+
+
